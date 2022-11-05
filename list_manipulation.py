@@ -26,7 +26,18 @@ if command == 3:
     modifyElement = int(input("Enter the element to modify from ([29, 23, 47, 1, 8, 9, 17, 69, 420, 8008]): "))
     newElement = int(input("Enter the new element to replace: "))
     idx = array.index(modifyElement)
-    array[idx] = newElement 
+    array[idx] = newElement
+    print("You modify element '",modifyElement,"' and change it to ", newElement,"\nThe new array now is: ", array)
+    
+#Deleting an element
+if command == 4:
+    deleteElement = int(input("Enter the element to delete([29, 23, 47, 1, 8, 9, 17, 69, 420, 8008]): "))
+    array.remove(deleteElement)
+    print("You removed ",deleteElement, "\nThe new array is: ", array)
+
+#Sort accending
+if command == 5:
+    array.sort()
     print("The Ascending order is: ",array)
 
 #Reversed sort
