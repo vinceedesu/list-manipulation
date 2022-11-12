@@ -62,3 +62,8 @@ if command == 9:
     minimum = min(array)
     print("The lowest element in the array is ", minimum)
     
+    
+#trying out git
+#nacommit na sana lumabas sa Terminal
+
+print()
